@@ -19,17 +19,17 @@
         <div class="grid grid-cols-3 ">
             <div class="bg-green-400 p-8 rounded-md w-3/4 mx-auto text-white font-semibold">
                 <h3 class="text-2xl "> deposit </h3>
-                <h4 class="text-4xl"> $00 </h4>
+                <h4  class="text-4xl"> $ <span id="deposit-total">00</span> </h4>
             </div>
 
             <div class="bg-yellow-400 p-8 rounded-md w-3/4 mx-auto text-white font-semibold">
                 <h3 class="text-2xl "> withdraw </h3>
-                <h4 class="text-4xl"> $00 </h4>
+                <h4 class="text-4xl"> $ <span id="withdraw-total">00</span> </h4>
             </div>
 
             <div class="bg-purple-500 p-8 rounded-md w-3/4 mx-auto text-white font-semibold">
                 <h3 class="text-2xl "> Balance </h3>
-                <h4 class="text-4xl"> $1200 </h4>
+                <h4 class="text-4xl"> $<span id="total-balance">1200</span> </h4>
             </div>
         </div>
     </section>
@@ -49,7 +49,7 @@
                         <h3 class="text-2xl font-semibold mb-4"> Enter deposit  </h3>
                         <div>
                             <input id="withdraw-input" class="block w-3/4 mb-4 border rounded-lg border-gray-400 p-2" type="email" placeholder=" write your deposit" name="" id="">
-                            <button id="withdraw-btn" class=" font-semibold border-2 bg-green-700  px-4  py-2 rounded-lg text-white "> withdraw </button>
+                            <button id="withdraw-button" class=" font-semibold border-2 bg-green-700  px-4  py-2 rounded-lg text-white "> withdraw </button>
                         </div>
                     </div>
              </div>
@@ -57,5 +57,6 @@
     </section>
 
    </main>
+   <script src="withdraw.js"></script>
 </body>
 </html>
